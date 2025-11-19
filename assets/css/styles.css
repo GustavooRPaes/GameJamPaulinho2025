@@ -657,8 +657,6 @@ body.modal-open {
 .card:hover {
   transform: translateY(-8px);
   border-color: rgba(0, 217, 112, 0.3);
-  background: linear-gradient(135deg, #1f2937 0%, #1a2332 100%);
-  box-shadow: 0 16px 40px rgba(0, 217, 112, 0.08);
 }
 
 .card:hover::before {
