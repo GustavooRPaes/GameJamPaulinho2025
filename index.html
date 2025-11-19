@@ -1,183 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="theme-color" content="#0f1419" />
-    <link rel="icon" href="assets/images/logo.png" />
-    <title>Rato</title>
-    <meta
-      name="description"
-      content="NeonGoblin — Juntos como Goblins, nossos jogos brilham mais que nosso nome."
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Inter:wght@300;400;600;800&display=swap"
-      as="style"
-      onload="this.rel='stylesheet'"
-    />
-  <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-
-  <body>
-    <header class="site-header" role="banner" style="height: 80px;">
-      <div class="container header-inner">
-        <a href="#hero" class="brand" aria-label="NeonGoblin Home">
-          <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Ratatouille - Rato na Cozinha</h1>
-          <span class="brand-text">NeonGoblin</span>
-        </a>
-        <button
-          class="menu-toggle"
-          type="button"
-          aria-label="Alternar navegação"
-          aria-controls="primary-navigation"
-          aria-expanded="false"
-        >
-          <span class="menu-bar"></span>
-          <span class="menu-bar"></span>
-          <span class="menu-bar"></span>
-        </button>
-        <nav
-          class="main-nav"
-          id="primary-navigation"
-          role="navigation"
-          aria-label="Navegação principal"
-        >
-          <ul>
-            <li><a href="#about" class="nav-link">Sobre</a></li>
-            <li><a href="#games" class="nav-link">Jogo</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <main id="main">
-      
-        <section id="about" class="about container" aria-labelledby="about-title">
-        <div class="about-grid">
-          <article class="card" data-card="vision">
-            <div class="card-icon">✨</div>
-            <h3>Lore</h3>
-            <p class="about-text">
-              Você é um rato, Raimundo Teixeira, fugindo de facas e garfos de um chefe louco que inveja 
-              suas habilidades culinárias aprendidas no livro de Érick Jacquin, O Poder da Culinária (Le Pouvoir de La Cuisine). <br>
-              Jacquin já dizia: "Qualquer um pode cozinhar", mas não é qualquer um que cozinha como Raimundo, apesar de ser um rato que veio dos esgostos de São Paulo. <br>
-              Raimundo, com ou sem pessoas o atrapalhando, ele continua sendo um dos mais habilidosos na cultura gastronômica brasileira e mundial. 
-            </p>
-          </article>
-
-          <article class="card" data-card="values">
-            <div class="card-icon">🎯</div>
-            <h3>Tutorial</h3>
-            <ul>
-              <li>WASD -> Movimento</li>
-              <li>Barra de espaço -> Pular</li>
-            </ul>
-          </article>
-
-          <article class="card team" data-card="team">
-            <div class="card-icon">👥</div>
-            <h3>Conheça os cozinheiros</h3>
-            <ul>
-              <li><strong>Afiador de facas</strong> - João Vitor da Silva</li>
-              <li><strong>Separador de ingredientes</strong> - João Vitor da Silva Rebello</li>
-              <li><strong>Cozinheiro principal</strong> - Felipe Soares Rodrigues</li>
-              <li><strong>Cozinheiro</strong> - Francisco Gabriel dos Santos Santana (2º Jodi)</li>
-              <li><strong>Cozinheiro</strong> - Daniel Patrício Santos de Oliveira</li>
-              <li><strong>Cozinheiro</strong> - </li>
-              <li><strong>Cozinheira</strong> - (3º Jodi)</li>
-              <li><strong>Assistente de cozinha (põe páprica)</strong> - Geovanna de Miranda Souza Ananias </li>
-              <li><strong>Assistente de cozinha (põe sal)</strong> - Gustavo Rodrigues Paes (3º DS)</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <section
-        id="features"
-        class="features container"
-        aria-labelledby="features-title"
-      >
-        <div class="feature-grid">
-          <article class="feature-card">
-            <div class="feature-icon" aria-hidden="true">❤</div>
-            <h3>Aproveite o jogo!</h3>
-            <p>
-              O rato agradece muito por querer salvar o trabalho dele dos chefes gastronômicos invejosos (¬_¬ ).
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="games" class="games container" aria-labelledby="games-title">
-        <div class="section-header">
-          <h2 id="games-title">Jogo</h2>
-          <div class="header-accent"></div>
-        </div>
-        <section class="intro">
-        
-          
-    </section>
-    <section class="jogo">
-      <h1>Rato na Cozinha</h1>
-        <iframe src="seila.html" frameborder="1" width="1300px" height="700px"></iframe>        
-      </section>
-    </main>
-
-    <footer id="contact" class="site-footer" role="contentinfo">
-      <div class="container footer-inner">
-        <div class="footer-brand">
-          <p class="muted">
-            © <span id="year"></span> NeonGoblin. Todos os direitos reservados.
-          </p>
-        </div>
-      </div>
-    </footer>
-    <div
-      class="modal"
-      id="game-modal"
-      role="dialog"
-      aria-modal="true"
-      aria-hidden="true"
-    >
-      <div class="modal-backdrop" data-modal-close></div>
-      <div class="modal-content" role="document">
-        <button
-          type="button"
-          class="modal-close"
-          aria-label="Fechar detalhes"
-          data-modal-close
-        >
-          ×
-        </button>
-        <div class="modal-body">
-          <h3 id="modal-title"></h3>
-          <p id="modal-description"></p>
-          <ul id="modal-tags" class="modal-tags"></ul>
-          <div class="modal-footer">
-            <span class="modal-platform"></span>
-            <a
-              href="https://www.instagram.com/neongoblin.studios"
-              id="modal-link"
-              target="_blank"
-              rel="noopener"
-              class="btn ghost"
-              >Ver devlog</a
-            >
-          </div>
-        </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SQUEAKY MOUSE - Sobreviva aos Talheres!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        🐀 SQUEAKY MOUSE
       </div>
     </div>
-    <button
-      class="back-to-top"
-      id="back-to-top"
-      type="button"
-      aria-label="Voltar ao topo"
-    >
-      ↑
-    </button>
-  <script src="assets/js/script.js" defer></script>
-  </body>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="homeSection">
+    <h1 class="hero-title">SQUEAKY MOUSE</h1>
+    <p class="hero-subtitle">
+      DESVIE DOS TALHERES!<br>
+      SOBREVIVA O MÁXIMO QUE PUDER DO COZINHEIRO MALUCO!
+    </p>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="features" id="featuresSection">
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">🐀</div>
+        <h3 class="feature-title">LORE</h3>
+        <p class="feature-text">
+          Você é um rato, Raimundo Teixeira, fugindo de facas e ratoeiras de um chefe louco que inveja 
+          suas habilidades culinárias aprendidas no livro de Érick Jacquin, O Poder da Culinária (Le Pouvoir de La Cuisine). <br>
+          Jacquin já dizia: "Qualquer um pode cozinhar", mas não é qualquer um que cozinha como Raimundo, apesar de ser um rato que veio dos esgostos de São Paulo. <br>
+          Raimundo, com ou sem pessoas o atrapalhando, ele continua sendo um dos mais habilidosos na cultura gastronômica brasileira e mundial.
+        </p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🍴</div>
+        <h3 class="feature-title">CONHEÇA OS COZINHEIROS</h3>
+        <p class="feature-text">
+          <ul>
+            <li>Afiador de facas - João Vitor da Silva</li><br>
+            <li>Separador de ingredientes - João Vitor da Silva Rebello</li><br>
+            <li>Cozinheiro - Felipe Soares Rodrigues</li><br>
+            <li>Cozinheiro - Francisco Gabriel dos Santos Santana (2º Jodi)</li><br>
+            <li>Cozinheiro - Daniel Patrício Santos de Oliveira</li><br>
+            <li>Cozinheira - Emily Yasmin</li><br>
+            <li>Cozinheira - Julia Queiroz(3º Jodi)</li><br>
+            <li>Assistente de cozinha (põe páprica) - Geovanna de Miranda Souza Ananias </li><br>
+            <li>Assistente de cozinha (põe sal) - Gustavo Rodrigues Paes (3º DS)</li>
+          </ul>
+        </p>
+      </div>
+      
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <h3 class="feature-title">TUTORIAL</h3>
+        <p class="feature-text">
+          Movimento → A e D<br>Pular → W
+        </p>
+      </div>
+    </div>
+  </section>
+<br><br>
+  <section class="features" id="featuresSection">
+    <h3 class="feature-title" style="text-align: center;">APROVEITE O JOGO!</h3>
+    
+    <div style="display: flex; flex-direction: column; align-items: center; gap: 1rem;">
+      <iframe 
+        id="game-iframe"
+        src="rayinho/index.html" 
+        width="854" 
+        height="480"
+        allowfullscreen
+        allow="fullscreen">
+      </iframe>
+      <button id="fullscreen-btn" style="padding: 10px 20px; font-family: 'Press Start 2P', cursive; cursor: pointer; background: #ff4d4d; color: white; border: 4px solid #000; box-shadow: 4px 4px 0 #000;">TELA CHEIA</button>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('fullscreen-btn').addEventListener('click', function() {
+      var iframe = document.getElementById('game-iframe');
+      if (iframe.requestFullscreen) {
+        iframe.requestFullscreen();
+      } else if (iframe.mozRequestFullScreen) { /* Firefox */
+        iframe.mozRequestFullScreen();
+      } else if (iframe.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+        iframe.webkitRequestFullscreen();
+      } else if (iframe.msRequestFullscreen) { /* IE/Edge */
+        iframe.msRequestFullscreen();
+      }
+    });
+  </script>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 RATO</p>
+    <p style="margin-top: 0.5rem;">USE A e D PARA MOVER | W PARA PULAR</p>
+  </footer>
+</body>
 </html>
